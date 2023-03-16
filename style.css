@@ -40,6 +40,11 @@ a {
     transition: all 300ms ease;
 }
 
+/*.nav__gradient {
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+
+}*/
+
 .nav__bubble:hover {
     background-color: aliceblue;
     color: #242424;
@@ -79,6 +84,13 @@ h3 {
     padding-bottom: 32px;
 }
 
+.header__text2 {
+    padding-top: 108px;
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 32px;
+}
+
 
 .header__para {
     color: aliceblue;
@@ -116,6 +128,9 @@ input:hover {
 .gif__container {
     padding-top: 112px;
     padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header--gif {
@@ -158,18 +173,28 @@ input:hover {
     color: grey;
 }
 
+.header__input--button {
+    position: relative;
+    
+}
+
 .btn {
     border-radius: 9999px;
     background-color: #3577ea;
     border: none;
     width: 35%;
     padding: 8px;
-    position: relative;
-    bottom: 35px;
-    left: 245px;
-    margin-left: 8px;
+    display: flex;
+    margin-left: 252px;
     color: aliceblue;
     transition: all 900ms ease;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn--bubble {
+    transform: translateY(-35px);
 }
 
 .btn:hover {
@@ -177,3 +202,7 @@ input:hover {
     color: #242424;
     cursor: pointer;
 }
+
+/* button responsiveness*/
+
+
