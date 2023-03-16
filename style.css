@@ -8,6 +8,7 @@
     background-color: #242424;
 }
 
+
 a {
     color: aliceblue;
     text-decoration: none;
@@ -82,7 +83,7 @@ h3 {
 .header__para {
     color: aliceblue;
     padding-bottom: 32px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.2;
 }
 
@@ -98,10 +99,14 @@ input {
     padding: 12px;
     border-radius: 9999px;
     border-width: 2px;
-    color: inherit;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.327);
     outline: none;
-    
+    width: 100%;
+    transition: all 300ms;
+}
+
+input:hover {
+    border: 2px solid white;
 }
 
 .header__row {
@@ -130,7 +135,7 @@ input {
 .header--awards {
     display: flex;
     justify-content: center;
-    padding: 32px 0;
+    padding: 4px 0;
     filter: grayscale();
 }
 
@@ -145,4 +150,30 @@ input {
     height: auto;
     padding-right: 56px;
     filter: grayscale();
+}
+
+.header--accolades {
+    padding-top: 56px;
+    filter: grayscale();
+    color: grey;
+}
+
+.btn {
+    border-radius: 9999px;
+    background-color: #3577ea;
+    border: none;
+    width: 35%;
+    padding: 8px;
+    position: relative;
+    bottom: 35px;
+    left: 245px;
+    margin-left: 8px;
+    color: aliceblue;
+    transition: all 900ms ease;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: #242424;
+    cursor: pointer;
 }
