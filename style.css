@@ -115,7 +115,9 @@ input {
     outline: none;
     width: 100%;
     transition: all 300ms;
+    color: aliceblue;
 }
+
 
 input:hover {
     border: 2px solid white;
@@ -202,6 +204,66 @@ input:hover {
     color: #242424;
     cursor: pointer;
 }
+
+/*features*/
+
+.container {
+    padding: 80px 0;
+    background-color: #F6F6F6;
+}
+
+.car--wrapper {
+    background-color: #F6F6F6;
+    width: calc(100%/3);
+    padding: 12px;
+    
+}
+
+.feature__row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    background-color: #F6F6F6;
+}
+
+.feature__header {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.car--img {
+    width: 100%;
+
+}
+.cars {
+    display: flex;
+    justify-content: center;
+}
+
+.car--text {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.car--text2 {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    font-weight: 700;
+    padding-top: 12px;
+    letter-spacing: 1px;
+    color: #242424;
+    position: relative;
+}
+
+
+
 
 /* button responsiveness*/
 
