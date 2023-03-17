@@ -326,6 +326,95 @@ input:hover {
     position: relative;
 }
 
+
+/*ownership*/
+
+
+.link--icon {
+    color:#242424;
+}
+
+.owner--icon {
+    color: #3577ea;
+    font-size: 56px;
+    padding-bottom: 32px;
+}
+
+.owner--header {
+    padding-bottom: 12px;
+}
+
+.owner--para {
+    padding-bottom: 8px;
+    inline-size: 300px;
+    font-size: 20px;
+    margin-left: 32px;
+    
+}
+
+.ownership--link {
+    color: #242424;
+    text-decoration: underline;
+}
+
+.ownership--link:hover {
+    color: rgb(72, 72, 72);
+}
+
+.factors {
+    display: flex;
+    justify-content: center;
+}
+
+.factor--wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100%/3);
+    padding: 0 24px;
+}
+
+
+.owner--email {
+    inline-size: 275px;
+}
+
+/*footer*/
+
+.footer--container {
+    padding: 80px 0;
+    background-color: rgb(212, 212, 212);
+    border-top: 1.5px solid grey;
+}
+
+.footer--links {
+    display: flex;
+    flex-wrap: wrap;
+    transform:translateY(80px);
+}
+
+.footer--link {
+    padding: 0 12px;
+    padding-bottom: 24px;
+}
+
+.footer--content {
+    width: 60%;
+}
+
+.social--links {
+   transform: translateX(1100px);
+   display: flex;
+}
+
+.social--link {
+    padding: 24px;
+}
+
+.fa-brands {
+    color: #242424;
+}
+
 /* button responsiveness*/
 
 
