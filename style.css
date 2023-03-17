@@ -260,10 +260,39 @@ input:hover {
     letter-spacing: 1px;
     color: #242424;
     position: relative;
+    
 }
 
+.car--button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: aliceblue;
+    outline: none;
+    padding: 12px;
+    cursor: pointer;
+}
 
+.button--container {
+   background-color: #F6F6F6;
+   padding-top: 56px;
+}
 
+.fa-chevron-right {
+    background-color: #F6F6F6;
+    padding-right: 8px;
+    text-decoration: none;
+}
+
+.text--underline {
+    background-color: #F6F6F6;
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+
+.text--underline:hover {
+    text-decoration: underline;
+}
 
 /* button responsiveness*/
 
