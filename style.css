@@ -8,6 +8,11 @@
     
 }
 
+
+.gradient {
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.063));
+}
+
 body {
     background-color: #242424;
 }
@@ -382,38 +387,75 @@ input:hover {
 /*footer*/
 
 .footer--container {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 32px;
     background-color: rgb(212, 212, 212);
     border-top: 1.5px solid grey;
 }
 
 .footer--links {
     display: flex;
-    flex-wrap: wrap;
-    transform:translateY(80px);
+    justify-content: space-between;
 }
 
 .footer--link {
-    padding: 0 12px;
-    padding-bottom: 24px;
+    padding-top: 8px;
+    transition: all 400ms ease;
 }
 
-.footer--content {
-    width: 60%;
+.footer--link:hover {
+    color: darkgray;
 }
 
 .social--links {
-   transform: translateX(1100px);
-   display: flex;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(150px);
+    padding-right: 32px;
+    
 }
 
 .social--link {
-    padding: 24px;
+    padding: 0 12px;
+    font-size: 20px;
 }
 
-.fa-brands {
+.social--linked {
+    color: rgb(54, 54, 54);
+    transition: all 300ms ease;
+    
+}
+
+.social--linked:hover {
+    color: black;
+}
+
+.copyright {
+    padding-top: 12px;
+}
+
+.copyright:hover {
     color: #242424;
 }
+
+.footer__link--color {
+    color: #242424;
+}
+
+.footer__link--container {
+    width: 1%;
+}
+
+.CU {
+    inline-size: 100px;
+}
+
+.CU2 {
+    inline-size: 200px;
+    width: 130px;
+}
+
+
 
 /* button responsiveness*/
 
