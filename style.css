@@ -15,6 +15,7 @@
 
 body {
     background-color: #242424;
+    overflow-x: hidden;
 }
 
 a {
@@ -369,6 +370,7 @@ input:hover {
 .factors {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .factor--wrapper{
@@ -459,4 +461,17 @@ input:hover {
 
 /* button responsiveness*/
 
+
+@media (max-width: 1215px) {
+    .btn {
+        
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .btn--bubble {
+        transform: translateY(0px);
+        margin-top: 20px;
+    }
+}
 
