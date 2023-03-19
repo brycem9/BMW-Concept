@@ -24,7 +24,7 @@ a {
 }
 
 .blue--text {
-    color: #3577ea;
+    color: #0097D4;
 }
 
 /* NAVIGATION BAR */
@@ -42,17 +42,13 @@ a {
 }
 
 .nav__bubble {
-    background-color: #3577ea;
+    background-color: #0097D4;
     border-radius: 50px;
     padding: 12px;
     text-decoration: none;
     transition: all 300ms ease;
 }
 
-/*.nav__gradient {
-    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
-
-}*/
 
 .nav__bubble:hover {
     background-color: aliceblue;
@@ -192,7 +188,7 @@ input:hover {
 
 .btn {
     border-radius: 9999px;
-    background-color: #3577ea;
+    background-color: #0097D4;
     border: none;
     width: 35%;
     padding: 8px;
@@ -341,7 +337,7 @@ input:hover {
 }
 
 .owner--icon {
-    color: #3577ea;
+    color: #0097D4;
     font-size: 56px;
     padding-bottom: 32px;
 }
@@ -475,3 +471,109 @@ input:hover {
     }
 }
 
+/*response*/
+
+@media (max-width: 764px) {
+    .nav__links {
+        display: none;
+    }
+
+    .fa-bars {
+        color: #0097D4;
+        font-size: 24px;
+    }
+
+    .gif__container {
+        padding: 24px;
+        padding-top: 250px;
+        display: none ;
+    }
+
+    p {
+        
+    }
+
+    .header__text {
+        inline-size: 350px;
+    }
+
+    .header--gif {
+        display: none;
+    }
+
+    .emailinput {
+       
+    }
+
+    .header__container {
+        width: 100%;
+    }
+
+    .resize {
+        padding-left: 24px;
+    }
+
+    .resize--jd {
+        padding-left: 24px ;
+    }
+
+    .header--awards {
+        width: 70%;
+        transform: translateX(20px);
+        padding: 0 20px;
+    }
+    
+    .mobile--header {
+        color: aliceblue;
+        padding-bottom: 32px;
+        font-size: 32px;
+        inline-size: 200px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .header__para {
+        font-size: 12px;
+    }
+
+    .body {
+        
+    }
+    
+    .cars {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .factors {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+
+   .owner--icon {
+    padding-top: 24px;
+    padding-bottom: 12px;
+   }
+
+   .factor--wrapper {
+    display: flex;
+    align-items: center;
+   }
+
+  body, html {
+    overflow-x: hidden;
+  }
+ 
+
+
+}
