@@ -387,7 +387,6 @@ input:hover {
 .factors {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .factor--wrapper{
@@ -579,6 +578,10 @@ input:hover {
 
 @media (max-width: 768px) {
     
+    .header__text {
+        padding-right: 40px;
+    }
+
     .header__para {
         font-size: 12px;
     }
@@ -602,6 +605,53 @@ input:hover {
     
    }
 
+   .trade-in {
+    inline-size: 120px;
+   }
+
+   .apply {
+    inline-size: 200px;
+    margin-left: 40px;
+   }
+
+   .connect {
+    inline-size: 150px;
+    margin-left: 16px;
+   }
+
+   .bbook {
+    inline-size: 175px;
+    margin-left: 16px;
+   }
+
+    .equifax {
+        inline-size: 175px;
+        margin-left: 48px;
+
+    }
+
+    .started {
+        inline-size: 175px;
+        margin-left: 48px;
+    }
+
+    .signup {
+        inline-size: 175px;
+        margin-left: 48px;
+    }
+
+   .owner--para {
+    font-size: 20px;
+   }
+
+    .ownership--link {
+        font-size: 20px;
+    } 
+
+   .owner--header {
+    font-size: 18px;
+   }
+
    .owner--icon {
     padding-top: 24px;
     padding-bottom: 12px;
@@ -610,6 +660,19 @@ input:hover {
    .factor--wrapper {
     display: flex;
     align-items: center;
+    padding: 12px 0;
+   }
+
+   .social--links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-bottom: 32px;
+   }
+
+   .fa-brands {
+    padding: 8px 0;
+    transform: translateX(32px);
    }
 
   body, html {
