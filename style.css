@@ -606,7 +606,8 @@ input:hover {
    }
 
    .trade-in {
-    inline-size: 120px;
+    inline-size: 200px;
+    margin-left: 80px;
    }
 
    .apply {
