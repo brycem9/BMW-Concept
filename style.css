@@ -29,6 +29,53 @@ a {
 
 /* NAVIGATION BAR */
 
+.btn__menu {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #0097D4;
+}
+
+.menu__backdrop {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.menu--open .menu__backdrop {
+    display: flex;
+}
+
+.btn__menu--close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 8px;
+    color: white;
+}
+
+.menu__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__list {
+  padding: 24px 0;
+}
+
+.menu__link {
+    font-size: 32px;
+}
+
 .logo {
     width: 50px;
 }
@@ -498,10 +545,7 @@ input:hover {
         display: none;
     }
 
-    .fa-bars {
-        color: #0097D4;
-        font-size: 24px;
-    }
+    
 
     .gif__container {
         padding: 24px;
